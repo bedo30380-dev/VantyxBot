@@ -1,12 +1,12 @@
 module.exports = {
   // --- Discord Application Details ---
-  DISCORD_TOKEN: "YOUR_BOT_TOKEN",
-  CLIENT_ID: "605009836547112963",
-  CLIENT_SECRET: "YOUR_CLIENT_SECRET",
+  DISCORD_TOKEN: "MTUyNjI1OTI5OTc0NjA1NDE0NQ.G4J2rR.o_dE5l0lmXy5VyNVkelhYe_y0VjmR3k5lrUANo",
+  CLIENT_ID: "1526259299746054145",
+  CLIENT_SECRET: "1526243654153408603",
 
   // --- Database Connection ---
   // If using an external MongoDB (like Atlas), paste your URI here:
-  MONGO_URI: "mongodb://localhost:27017/vantyx",
+  MONGO_URI: "mongodb://mongo:xdbNDBzItBiFqwpTOuMUKZHFWvOKSxmr@mongodb.railway.internal:27017",
 
   // --- Dashboard & API ---
   // DASHBOARD_URL is used for OAuth redirects (must be accessible from user's browser)
@@ -16,11 +16,11 @@ module.exports = {
   API_PORT: 4000,
 
   // --- Bot Settings ---
-  BOT_PREFIX: "!",
-  OWNER_IDS: ["697435544812257342"],
+  BOT_PREFIX: "-",
+  OWNER_IDS: ["1526259299746054145"],
 
   // --- Feature Settings ---
-  DEFAULT_LANG: "en", // 'en' or 'ar'
+  DEFAULT_LANG: "ar", // 'en' or 'ar'
 
   // --- Project version ---
   PROJECT_VERSION: "1.0",
